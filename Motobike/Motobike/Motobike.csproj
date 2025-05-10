@@ -590,6 +590,7 @@
     <None Include="Resources\username.png" />
     <None Include="Resources\edit.png" />
     <None Include="Resources\research.png" />
+    <None Include="Resources\folder1.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

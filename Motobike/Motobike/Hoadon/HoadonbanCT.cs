@@ -12,7 +12,7 @@ namespace Motobike.Hoadon
         public string MaHang {  get; set; }
         public string SoLuong {  get; set; }
         public string GiaBan {  get; set; }
-        public string Gimagia {  get; set; }
+        public string Giamgia {  get; set; }
         public string ThanhTien { get; set; }
     }
 }

@@ -57,6 +57,7 @@
             // 
             this.butcreate.BackColor = System.Drawing.Color.Transparent;
             this.butcreate.BorderRadius = 14;
+            this.butcreate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.butcreate.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.butcreate.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.butcreate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -75,6 +76,7 @@
             // Lblforget
             // 
             this.Lblforget.AutoSize = true;
+            this.Lblforget.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Lblforget.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lblforget.Location = new System.Drawing.Point(192, 347);
             this.Lblforget.Name = "Lblforget";
@@ -92,7 +94,7 @@
             this.txtmatkhau.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtmatkhau.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtmatkhau.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtmatkhau.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtmatkhau.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtmatkhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtmatkhau.Location = new System.Drawing.Point(83, 219);
             this.txtmatkhau.Name = "txtmatkhau";
@@ -111,7 +113,7 @@
             this.txttaikhoan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txttaikhoan.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txttaikhoan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txttaikhoan.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txttaikhoan.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttaikhoan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txttaikhoan.Location = new System.Drawing.Point(83, 135);
             this.txttaikhoan.Name = "txttaikhoan";
@@ -125,6 +127,7 @@
             // 
             this.ButDangnhap.BackColor = System.Drawing.Color.Transparent;
             this.ButDangnhap.BorderRadius = 14;
+            this.ButDangnhap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButDangnhap.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.ButDangnhap.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.ButDangnhap.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

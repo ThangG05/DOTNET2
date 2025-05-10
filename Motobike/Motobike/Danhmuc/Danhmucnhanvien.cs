@@ -260,6 +260,12 @@ namespace Motobike.Danhmuc
                 MessageBox.Show("Lưu thành công");
                 hienthi();
             }
+            btnsua.Enabled = true;
+            btnxoa.Enabled = true;
         }
+
+       
+
+        
     }
 }

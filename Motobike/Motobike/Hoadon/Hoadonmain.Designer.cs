@@ -52,6 +52,7 @@
             // btnhoadonnhap
             // 
             this.btnhoadonnhap.BorderRadius = 14;
+            this.btnhoadonnhap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnhoadonnhap.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnhoadonnhap.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnhoadonnhap.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -68,6 +69,7 @@
             // btnhoadonban
             // 
             this.btnhoadonban.BorderRadius = 14;
+            this.btnhoadonban.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnhoadonban.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnhoadonban.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnhoadonban.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -108,6 +110,7 @@
             this.ClientSize = new System.Drawing.Size(1151, 590);
             this.Controls.Add(this.pbody);
             this.Controls.Add(this.guna2Panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "Hoadonmain";
             this.Text = "Hoadonmain";
             this.Load += new System.EventHandler(this.Hoadonmain_Load);

@@ -56,6 +56,7 @@
             // btnsanpham
             // 
             this.btnsanpham.BorderRadius = 14;
+            this.btnsanpham.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsanpham.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnsanpham.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnsanpham.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -72,6 +73,7 @@
             // btnkinhdoanh
             // 
             this.btnkinhdoanh.BorderRadius = 14;
+            this.btnkinhdoanh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnkinhdoanh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnkinhdoanh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnkinhdoanh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -88,6 +90,7 @@
             // btnbanhang
             // 
             this.btnbanhang.BorderRadius = 14;
+            this.btnbanhang.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnbanhang.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnbanhang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnbanhang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -104,6 +107,7 @@
             // btnnhaphang
             // 
             this.btnnhaphang.BorderRadius = 14;
+            this.btnnhaphang.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnnhaphang.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnnhaphang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnnhaphang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

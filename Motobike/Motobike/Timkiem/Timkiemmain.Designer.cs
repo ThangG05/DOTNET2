@@ -56,6 +56,7 @@
             // btnhoadonnhap
             // 
             this.btnhoadonnhap.BorderRadius = 14;
+            this.btnhoadonnhap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnhoadonnhap.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnhoadonnhap.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnhoadonnhap.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -72,6 +73,7 @@
             // btnhanghoa
             // 
             this.btnhanghoa.BorderRadius = 14;
+            this.btnhanghoa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnhanghoa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnhanghoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnhanghoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -88,6 +90,7 @@
             // btnkhachhang
             // 
             this.btnkhachhang.BorderRadius = 14;
+            this.btnkhachhang.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnkhachhang.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnkhachhang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnkhachhang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -104,6 +107,7 @@
             // btnhoadonban
             // 
             this.btnhoadonban.BorderRadius = 14;
+            this.btnhoadonban.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnhoadonban.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnhoadonban.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnhoadonban.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -144,6 +148,7 @@
             this.ClientSize = new System.Drawing.Size(1151, 590);
             this.Controls.Add(this.patimkiem);
             this.Controls.Add(this.guna2Panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "Timkiemmain";
             this.Text = "Timkiemmain";
             this.guna2Panel1.ResumeLayout(false);

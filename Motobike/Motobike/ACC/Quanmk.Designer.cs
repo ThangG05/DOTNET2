@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnok = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnluu = new Guna.UI2.WinForms.Guna2CircleButton();
             this.txtmkmoi = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnmkmoi = new Guna.UI2.WinForms.Guna2Button();
@@ -44,6 +45,7 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.btnok);
             this.guna2Panel1.Controls.Add(this.btnluu);
             this.guna2Panel1.Controls.Add(this.txtmkmoi);
             this.guna2Panel1.Controls.Add(this.btnmkmoi);
@@ -59,9 +61,30 @@
             this.guna2Panel1.Size = new System.Drawing.Size(484, 461);
             this.guna2Panel1.TabIndex = 0;
             // 
+            // btnok
+            // 
+            this.btnok.BackColor = System.Drawing.Color.Transparent;
+            this.btnok.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnok.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnok.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnok.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnok.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnok.FillColor = System.Drawing.Color.Black;
+            this.btnok.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnok.ForeColor = System.Drawing.Color.White;
+            this.btnok.Location = new System.Drawing.Point(201, 303);
+            this.btnok.Name = "btnok";
+            this.btnok.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnok.Size = new System.Drawing.Size(72, 66);
+            this.btnok.TabIndex = 9;
+            this.btnok.Text = "OK";
+            this.btnok.UseTransparentBackground = true;
+            this.btnok.Click += new System.EventHandler(this.btnok_Click);
+            // 
             // btnluu
             // 
             this.btnluu.BackColor = System.Drawing.Color.Transparent;
+            this.btnluu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnluu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnluu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnluu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -69,7 +92,7 @@
             this.btnluu.FillColor = System.Drawing.Color.Black;
             this.btnluu.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnluu.ForeColor = System.Drawing.Color.White;
-            this.btnluu.Location = new System.Drawing.Point(201, 383);
+            this.btnluu.Location = new System.Drawing.Point(201, 303);
             this.btnluu.Name = "btnluu";
             this.btnluu.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.btnluu.Size = new System.Drawing.Size(72, 66);
@@ -87,9 +110,10 @@
             this.txtmkmoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtmkmoi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtmkmoi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtmkmoi.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtmkmoi.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtmkmoi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtmkmoi.Location = new System.Drawing.Point(131, 332);
+            this.txtmkmoi.Location = new System.Drawing.Point(132, 251);
+            this.txtmkmoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtmkmoi.Name = "txtmkmoi";
             this.txtmkmoi.PlaceholderText = "";
             this.txtmkmoi.SelectedText = "";
@@ -107,7 +131,7 @@
             this.btnmkmoi.FillColor = System.Drawing.Color.Black;
             this.btnmkmoi.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmkmoi.ForeColor = System.Drawing.Color.White;
-            this.btnmkmoi.Location = new System.Drawing.Point(12, 332);
+            this.btnmkmoi.Location = new System.Drawing.Point(8, 251);
             this.btnmkmoi.Name = "btnmkmoi";
             this.btnmkmoi.Size = new System.Drawing.Size(116, 57);
             this.btnmkmoi.TabIndex = 6;
@@ -123,9 +147,10 @@
             this.txtmaxn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtmaxn.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtmaxn.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtmaxn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtmaxn.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtmaxn.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtmaxn.Location = new System.Drawing.Point(131, 251);
+            this.txtmaxn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtmaxn.Name = "txtmaxn";
             this.txtmaxn.PlaceholderText = "";
             this.txtmaxn.SelectedText = "";
@@ -135,6 +160,7 @@
             // guna2CircleButton1
             // 
             this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -196,9 +222,10 @@
             this.txtmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtmail.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtmail.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtmail.Location = new System.Drawing.Point(131, 117);
+            this.txtmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtmail.Name = "txtmail";
             this.txtmail.PlaceholderText = "";
             this.txtmail.SelectedText = "";
@@ -244,5 +271,6 @@
         private Guna.UI2.WinForms.Guna2CircleButton btnluu;
         private Guna.UI2.WinForms.Guna2TextBox txtmkmoi;
         private Guna.UI2.WinForms.Guna2Button btnmkmoi;
+        private Guna.UI2.WinForms.Guna2CircleButton btnok;
     }
 }
